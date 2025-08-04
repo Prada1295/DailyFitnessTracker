@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        android:text="Daily Fitness Tracker"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/steps_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your steps"
+        android:inputType="number"
+        android:layout_margin="44dp"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:minHeight="60dp"
+        android:background="@color/white"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/calculate_calories_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/black"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:text="Calculate Calories"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</LinearLayout>
+

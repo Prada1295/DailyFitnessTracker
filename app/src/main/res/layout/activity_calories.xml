@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/calories_burned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="16dp"
+        android:text="Calories Burned: 0"
+        android:textColor="@color/white"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:hint="Enter your weight (lbs)"
+        android:inputType="number"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/age_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@color/white"
+        android:hint="Enter your age"
+        android:inputType="number"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/black"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:text="Calculate"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@android:color/black"
+        android:minHeight="60dp"
+        android:padding="16dp"
+        android:text="Back"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</LinearLayout>
